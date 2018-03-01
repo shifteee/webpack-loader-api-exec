@@ -1,0 +1,21 @@
+{
+  "name": "webpack-loader-api-exec",
+  "version": "0.1.0",
+  "description": "Replace this.exec inside webpack loader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shifteee/webpack-stats-plugin"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Makarychev <shiftmailbox@gmail.com>",
+  "license": "MIT"
+}
