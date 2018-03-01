@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shifteee/webpack-stats-plugin"
+    "url": "https://github.com/shifteee/webpack-loader-api-exec.git"
   },
   "keywords": [
     "webpack"
