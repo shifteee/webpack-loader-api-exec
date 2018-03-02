@@ -1,8 +1,7 @@
-const vm = require('vm');
+const { NodeVM } = require('vm2');
 
 module.exports = function(moduleStr, options = {}, ctx = {}) {
-    const context = vm.createContext(ctx);
-    const script = new vm.Script(moduleStr, options);
+    const vm = new NodeVM( Object.assign({}, options, { sandbox: ctx }) );
 
-    return script.runInContext(context);
+    return vm.run(moduleStr);
 };
